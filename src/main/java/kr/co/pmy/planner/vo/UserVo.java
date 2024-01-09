@@ -1,6 +1,6 @@
 package kr.co.pmy.planner.vo;
 
-public class UserVo {
+public class UserVo extends TeamVo{
 	private String id;
 	private String pw;
 	private String adress;

@@ -37,7 +37,8 @@
 	</insert>
 
 	<select id="login" resultMap="user">
-		SELECT * FROM user
-		WHERE id = #{id} AND pw = #{pw}
+		SELECT * FROM user u
+		WHERE u.id = #{id} AND u.pw = #{pw}
 	</select>
+	
 </mapper>

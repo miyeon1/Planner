@@ -5,5 +5,6 @@
     <typeAliases>
 <!-- 		<typeAlias alias="egovMap" type="egovframework.rte.psl.dataaccess.util.EgovMap"/> -->
 		<typeAlias alias="UserVo" type="kr.co.pmy.planner.vo.UserVo"/>
+		<typeAlias alias="TeamVo" type="kr.co.pmy.planner.vo.TeamVo"/>
     </typeAliases>
 </configuration>
