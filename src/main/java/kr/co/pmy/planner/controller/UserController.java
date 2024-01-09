@@ -36,6 +36,7 @@ public class UserController {
 			UserVo myInfo = userService.login(vo);
 			model.addAttribute("user", myInfo);
 			
+//			team 개설에 대한 정보 -> 개설된 팀이 몇개인지 list로 가져오기
 			List<TeamVo> teamList = teamService.teamList();
 			model.addAttribute("teamList", teamList);
 			
